@@ -1,3 +1,1 @@
-"# webtek" 
-# webtek
-# webtek
+Project named "Gravbergets Venner" for the subject IT2805 Web Technologies at NTNU Gløshaugen.
