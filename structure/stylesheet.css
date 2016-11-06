@@ -6,13 +6,13 @@
 
 /* Makes sure page is using full height of viewport */
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+    display:            flex;
+    min-height:         100vh;
+    flex-direction:     column;
 }
 
 main {
-    flex: 1;
+    flex:               1;
 }
 
 /* Properties for image in header */
@@ -54,7 +54,6 @@ p {
 footer {
     background-color:   darkslategray;
     text-align:         center;
-    margin-top:      -50px;
 }
 
 /* Properties for text in footer. */
