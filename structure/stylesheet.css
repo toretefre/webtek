@@ -53,6 +53,7 @@ p {
 /* Properties for footer */
 footer {
     background-color:   darkslategray;
+    padding:            0.5em 10px 0.5em 10px;
     text-align:         center;
 }
 
