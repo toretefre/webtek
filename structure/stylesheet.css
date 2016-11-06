@@ -4,6 +4,11 @@
     padding:            0;
 }
 
+/* Makes sure page is using full height of viewport */
+html, body {
+    min-height:         100%;
+}
+
 /* Properties for image in header */
 header {
     width:              100%;
@@ -26,13 +31,33 @@ nav {
     background-color:   darkslategray;
 }
 
+
+/* Properties for links in navbar */
 nav a {
     font-family:        Verdana, Tahoma, sans-serif;
-    color:              white;
+    color:              lightgray;
     text-decoration:    none;
 }
 
 /* Properties for paragraph-text */
 p {
     font-family:        Verdana, Tahoma, sans-serif;
+}
+
+/* Properties for footer */
+footer {
+    background-color:   darkslategray;
+    text-align:         center;
+    margin-top:      -50px;
+}
+
+/* Properties for text in footer. */
+footer span {
+    font-family:        Verdana, Tahoma, sans-serif;
+    color:              lightgray;
+}
+
+footer a {
+    text-decoration:    none;
+    color:              lightgray;
 }
