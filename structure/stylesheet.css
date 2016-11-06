@@ -11,6 +11,7 @@ body {
     flex-direction:     column;
 }
 
+/* Makes footer stick to bottom */
 main {
     flex:               1;
 }
@@ -36,12 +37,28 @@ nav {
     background-color:   darkslategray;
 }
 
-
 /* Properties for links in navbar */
 nav a {
     font-family:        Verdana, Tahoma, sans-serif;
     color:              lightgray;
     text-decoration:    none;
+}
+
+/* Properties for aside element to the right */
+aside {
+    display:            flex;
+    float:              right;
+    width:              30%;
+    min-height:         500px;
+    background-color:   hotpink;
+}
+
+/* Properties for main content (article) of page */
+article {
+    display:            flex;
+    width:              70%;
+    min-height:         500px;
+    background-color:   gold;
 }
 
 /* Properties for paragraph-text */
@@ -62,6 +79,7 @@ footer span {
     color:              lightgray;
 }
 
+/* Properties for URL in footer */
 footer a {
     text-decoration:    none;
     color:              lightgray;
