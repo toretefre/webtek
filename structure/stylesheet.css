@@ -31,17 +31,31 @@ header {
 /* Constructs navbar */
 nav {
     width:              100%;
-    padding:            20px 0 20px 0;
-    font-size:          2em;
+    font-size:          1.5em;
     text-align:         center;
     background-color:   darkslategray;
 }
 
 /* Properties for links in navbar */
-nav a {
-    font-family:        Verdana, Tahoma, sans-serif;
-    color:              lightgray;
-    text-decoration:    none;
+.navbar a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+
+/* On hover, navbar button changes color */
+.navbar a:hover {
+    background: #00b7f5;
+}
+
+/* Uses flex to center navbar elements */
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    /* This aligns items to the end line on main-axis */
+    justify-content: center;
+    list-style: none;
 }
 
 /* Properties for aside element to the right */
