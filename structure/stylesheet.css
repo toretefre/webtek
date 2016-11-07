@@ -69,18 +69,26 @@ aside {
 /* Properties for main content (article) of page */
 article {
     display:            flex;
-    min-height:         500px;
     width:              100%;
     background-color:   lime;
 }
 
 section {
     width:              35%;
+    padding:            10px;
 }
 
 article img {
-    height:             20%;
+    display:            inline-block;
+    float:              left;
+    height:             42%;
+    width:              30%;
     border-radius:      50%;
+}
+
+article p, h2 {
+    display:            inline-block
+    float:              left;
 }
 
 /* Properties for paragraph-text */
