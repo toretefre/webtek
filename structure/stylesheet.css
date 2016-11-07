@@ -74,6 +74,10 @@ article {
     background-color:   lime;
 }
 
+section {
+    width:              35%;
+}
+
 article img {
     height:             20%;
     border-radius:      50%;
