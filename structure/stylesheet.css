@@ -31,34 +31,47 @@ header {
 /* Constructs navbar */
 nav {
     width:              100%;
-    padding:            20px 0 20px 0;
-    font-size:          2em;
+    font-size:          1.5em;
     text-align:         center;
     background-color:   darkslategray;
 }
 
 /* Properties for links in navbar */
-nav a {
-    font-family:        Verdana, Tahoma, sans-serif;
-    color:              lightgray;
+.navbar a {
     text-decoration:    none;
+    display:            block;
+    padding:            1em;
+    color:              #000000;
+}
+
+/* On hover, navbar button changes color */
+.navbar a:hover {
+    background-color:   #007a08;
+}
+
+/* Uses flex to center navbar elements */
+.navbar {
+    display:            flex;
+    flex-flow:          row wrap;
+    /* This aligns items to the end line on main-axis */
+    justify-content:    center;
+    list-style:         none;
 }
 
 /* Properties for aside element to the right */
 aside {
     display:            flex;
     float:              right;
-    width:              30%;
-    min-height:         500px;
+    min-width:          30%;
     background-color:   hotpink;
 }
 
 /* Properties for main content (article) of page */
 article {
     display:            flex;
-    width:              70%;
     min-height:         500px;
-    background-color:   gold;
+    width:              100%;
+    background-color:   lime;
 }
 
 /* Properties for paragraph-text */
