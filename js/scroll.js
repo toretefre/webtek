@@ -1,4 +1,5 @@
 element = document.getElementById("footer")
+document.getElementById("knappen").addEventListener("click", scrollTo(document.header, element.offsetTop, 600))
 function scrollTo(element, to, time) {
     if (time<=0) return;
     let difference = to - element.scrollTop;
@@ -10,4 +11,4 @@ function scrollTo(element, to, time) {
         scrollTo(element, to, time - 10);
     }, 10);
 }
-scrollTo(document.header, element.offsetTop, 600);
+//scrollTo(document.header, element.offsetTop, 600);
