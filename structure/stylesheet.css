@@ -41,12 +41,12 @@ nav {
     text-decoration: none;
     display: block;
     padding: 1em;
-    color: white;
+    color: #000000;
 }
 
 /* On hover, navbar button changes color */
 .navbar a:hover {
-    background: #00b7f5;
+    background: #00dc00;
 }
 
 /* Uses flex to center navbar elements */
@@ -63,7 +63,7 @@ aside {
     display:            flex;
     float:              right;
     min-width:          30%;
-    background-color:   #ff90c9;
+    background-color: #ffa7b3;
 }
 
 /* Properties for main content (article) of page */
@@ -71,7 +71,7 @@ article {
     display:            flex;
     min-height:         500px;
     width:              100%;
-    background-color:   #ffea8c;
+    background-color: #ffefa3;
 }
 
 /* Properties for paragraph-text */
