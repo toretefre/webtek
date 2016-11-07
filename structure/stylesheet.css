@@ -74,6 +74,11 @@ article {
     background-color:   lime;
 }
 
+article img {
+    height:             20%;
+    border-radius:      50%;
+}
+
 /* Properties for paragraph-text */
 p {
     font-family:        Verdana, Tahoma, sans-serif;

@@ -32,8 +32,8 @@
           <file leaf-file-name="stylesheet.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/structure/stylesheet.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="214">
-                  <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+                <state relative-caret-position="-6">
+                  <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -46,8 +46,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/html_pages/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="226">
-                  <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+                <state relative-caret-position="379">
+                  <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -72,8 +72,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/structure/stylesheet.css" />
         <option value="$PROJECT_DIR$/html_pages/index.html" />
+        <option value="$PROJECT_DIR$/structure/stylesheet.css" />
       </list>
     </option>
   </component>
@@ -200,12 +200,12 @@
       <updated>1478466987755</updated>
       <workItem from="1478466988903" duration="3310000" />
       <workItem from="1478470374413" duration="2773000" />
-      <workItem from="1478504309415" duration="5562000" />
+      <workItem from="1478504309415" duration="6055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11645000" />
+    <option name="totallyTimeSpent" value="12138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1860" height="1092" extended-state="0" />
@@ -291,18 +291,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/structure/stylesheet.css">
+    <entry file="file://$PROJECT_DIR$/html_pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        <state relative-caret-position="379">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html_pages/index.html">
+    <entry file="file://$PROJECT_DIR$/structure/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+        <state relative-caret-position="-6">
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
           <folding />
         </state>
       </provider>
