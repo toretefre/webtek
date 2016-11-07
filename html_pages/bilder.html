@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Startside - Gravbergets Venner</title>
+    <link rel="stylesheet" type="text/css" href="../structure/stylesheet.css">
+</head>
+<body>
+    <header>
+        <img class="header_pic" src="../images/statskog_hogskyhytta.jpg"
+         alt="Høgskyhytta Gravberget - Bilde fra Statskog@flickr.com">
+    </header>
+
+        <main>
+            <nav>
+                <a href="../html_pages/index.html">Hjem</a>
+            </nav>
+
+            <aside>
+                <p>Aside</p>
+            </aside>
+
+            <article>
+                <section>
+                    <h2>Avsnitt 1:</h2>
+                    <p>Tekst til avsnitt 1.</p>
+                </section>
+
+                <section>
+                    <h2>Avsnitt 2:</h2>
+                    <p>Tekst til avsnitt 2.</p>
+                </section>
+                <button onclick="nextPicture()">Next Picture</button>
+                <button id="btnPrev" onclick="previousPicture()">Previous picture</button>
+                <canvas id="myCanvas" width ="600" height="600"></canvas>
+            </article>
+        </main>
+
+    <footer>
+            <span>
+                Laget av studenter på <a href="https://www.ntnu.no/studier/bit">Informatikk ved NTNU i Trondheim</a>.<br>
+                <a href="mailto:gravberget@list.stud.ntnu.no" target="_top">Send oss en e-post!</a>
+            </span>
+    </footer>
+    <script src="slideshow.js" type="text/javascript"></script>
+</body>
+</html>
