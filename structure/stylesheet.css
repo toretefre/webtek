@@ -81,14 +81,15 @@ section {
 article img {
     display:            inline-block;
     float:              left;
-    height:             42%;
+    height:             30%;
     width:              30%;
     border-radius:      50%;
+    margin:             0 0.5em 0.5em 0;
 }
 
 article p, h2 {
-    display:            inline-block
-    float:              left;
+    font-family:        Verdana, Tahoma, sans-serif;
+    display:            inline-block;
 }
 
 /* Properties for paragraph-text */
@@ -102,6 +103,34 @@ footer {
     padding:            0.5em 10px 0.5em 10px;
     text-align:         center;
 }
+
+/* Changes appearance of go-to-top button */
+.knappen {
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+/* :onhover of go-to-top button */
+.knappen:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* :clicked of go-to-top button */
+.knappen:active {
+    background-color: hotpink;
+}
+
 
 /* Properties for text in footer. */
 footer span {
