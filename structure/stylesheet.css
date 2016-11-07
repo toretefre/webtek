@@ -63,16 +63,15 @@ aside {
     display:            flex;
     float:              right;
     min-width:          30%;
-    min-height:         500px;
-    background-color:   hotpink;
+    background-color:   #ff90c9;
 }
 
 /* Properties for main content (article) of page */
 article {
     display:            flex;
-    width:              100%;
     min-height:         500px;
-    background-color:   gold;
+    width:              100%;
+    background-color:   #ffea8c;
 }
 
 /* Properties for paragraph-text */
