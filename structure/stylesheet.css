@@ -14,6 +14,7 @@ body {
 /* Makes footer stick to bottom */
 main {
     flex:               1;
+    background-color:   #f6f6f6;
 }
 
 /* Properties for image in header */
@@ -63,14 +64,16 @@ aside {
     display:            flex;
     float:              right;
     min-width:          30%;
-    background-color:   hotpink;
+    background-color:   #f6f6f6;
+    border-left: 1px solid #121212;
+    padding: 10px;
 }
 
 /* Properties for main content (article) of page */
 article {
     display:            flex;
     width:              100%;
-    background-color:   lime;
+    background-color:   #f6f6f6;
 }
 
 section {
@@ -79,17 +82,17 @@ section {
 }
 
 article img {
-    display:            inline-block;
+    display:            inline;
     float:              left;
-    height:             30%;
-    width:              30%;
+    height:             300px;
+    width:              300px;
     border-radius:      50%;
     margin:             0 0.5em 0.5em 0;
 }
 
 article p, h2 {
     font-family:        Verdana, Tahoma, sans-serif;
-    display:            inline-block;
+    display:            inline;
 }
 
 /* Properties for paragraph-text */
