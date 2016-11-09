@@ -47,7 +47,7 @@ nav {
 
 /* On hover, navbar button changes color */
 .navbar a:hover {
-    background-color:   #007a08;
+    background-color:   #4CAF50;
 }
 
 /* Uses flex to center navbar elements */
@@ -95,10 +95,10 @@ li a, .dropbutton {
 aside {
     display:            flex;
     float:              right;
-    min-width:          30%;
+    width:          30%;
     background-color:   #f6f6f6;
-    border-left: 1px solid #121212;
-    padding: 10px;
+    border-left:        1px solid #121212;
+    padding:            10px;
 }
 
 /* Properties for main content (article) of page */
@@ -108,11 +108,16 @@ article {
     background-color:   #f6f6f6;
 }
 
-section {
-    width:              35%;
-    padding:            10px;
+
+
+/* Properties for each section in article */
+.content {
+    display:            block;
+    width:              30%;
+    padding:            4em;
 }
 
+/* Properties of images in article */
 article img {
     display:            inline;
     float:              left;
@@ -122,6 +127,7 @@ article img {
     margin:             0 0.5em 0.5em 0;
 }
 
+/* Properties for p and h2 in article */
 article p, h2 {
     font-family:        Verdana, Tahoma, sans-serif;
     display:            inline;
@@ -140,32 +146,34 @@ footer {
 }
 
 /* Changes appearance of go-to-top button */
-.knappen {
-    background-color:   white; /* Green */
+button {
+    background-color:   white; /* goes green on hover */
     border:             none;
     color:              black;
     padding:            15px 30px;
     text-align:         center;
     text-decoration:    none;
     display:            inline-block;
-    font-size:          16px;
+    font-family:        Verdana, Tahoma, sans-serif;
+    font-size:          1em;
     margin:             4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
     cursor:             pointer;
+    -webkit-transition-duration:    0.4s; /* Safari */
+    transition-duration:            0.4s;
 }
 
 /* :onhover of go-to-top button */
-.knappen:hover {
+button:hover {
     background-color:   #4CAF50;
     color:              white;
 }
 
-/* :clicked of go-to-top button */
-.knappen:active {
-    background-color:   hotpink;
+.pic_button {
+    width:              10em;
+    height:             4em;
+    border:             1px solid #4CAF50;
+    margin:             auto 1em auto 1em;
 }
-
 
 /* Properties for text in footer. */
 footer span {
@@ -177,4 +185,4 @@ footer span {
 footer a {
     text-decoration:    none;
     color:              #eaeaea;
-}
+}   

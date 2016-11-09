@@ -25,7 +25,6 @@
                 </ul>
             </nav>
 
-
             <article>
                 <section>
                     <h2>Bilder:</h2>
@@ -34,20 +33,22 @@
                 </section>
 
 
-                <button id="btnPrev" onclick="previousPicture()">Previous picture</button>
+                <button class="pic_button" id="btnPrev" onclick="previousPicture()">Forrige bilde</button>
                 <canvas id="myCanvas" width ="600" height="600"></canvas>
-                <button onclick="nextPicture()">Next Picture</button>
+                <button class="pic_button" onclick="nextPicture()">Neste bilde</button>
                 <aside>
-                    <p>Aside</p>
+                    <script class="yr" src="http://www.yr.no/sted/Norge/Hedmark/Våler/Gravberget/ekstern_boks_liten.js">
+                    </script><noscript><a href="http://www.yr.no/sted/Norge/Hedmark/Våler/Gravberget/">
+                    yr.no: Værvarsel for Gravberget</a></noscript>
                 </aside>
-
             </article>
         </main>
 
     <footer>
             <span>
                 Laget av studenter på <a href="https://www.ntnu.no/studier/bit">Informatikk ved NTNU i Trondheim</a>.<br>
-                <a href="mailto:gravberget@list.stud.ntnu.no" target="_top">Send oss en e-post!</a>
+                <a href="mailto:gravberget@list.stud.ntnu.no" target="_top">Send oss en e-post!</a><br>
+                <button type="button" class="knappen" >Gå til toppen</button>
             </span>
     </footer>
     <script src="../js/slideshow.js" type="text/javascript"></script>
