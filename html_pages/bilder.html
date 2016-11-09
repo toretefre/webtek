@@ -26,16 +26,11 @@
             </nav>
 
             <article>
-                <section>
-                    <h2>Bilder:</h2>
-                    <br>
-                    <p>Her finner du bilder fra Gravberget.</p>
+                <section class="content">
+                    <button class="pic_button" id="btnPrev" onclick="previousPicture()">Forrige bilde</button>
+                    <canvas id="myCanvas" width ="600" height="600"></canvas>
+                    <button class="pic_button" onclick="nextPicture()">Neste bilde</button>
                 </section>
-
-
-                <button class="pic_button" id="btnPrev" onclick="previousPicture()">Forrige bilde</button>
-                <canvas id="myCanvas" width ="600" height="600"></canvas>
-                <button class="pic_button" onclick="nextPicture()">Neste bilde</button>
                 <aside>
                     <script class="yr" src="http://www.yr.no/sted/Norge/Hedmark/Våler/Gravberget/ekstern_boks_liten.js">
                     </script><noscript><a href="http://www.yr.no/sted/Norge/Hedmark/Våler/Gravberget/">

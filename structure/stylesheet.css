@@ -8,6 +8,7 @@
 body {
     display:            flex;
     min-height:         100vh;
+    max-height:         100%;
     flex-direction:     column;
 }
 
@@ -61,9 +62,11 @@ nav {
 
 /* Properties for aside element to the right */
 aside {
-    display:            flex;
+    display:            inline-block;
+    right:              0;
     float:              right;
-    width:          30%;
+    width:              20%;
+    height:             auto;
     background-color:   #f6f6f6;
     border-left:        1px solid #121212;
     padding:            10px;
@@ -71,26 +74,30 @@ aside {
 
 /* Properties for main content (article) of page */
 article {
-    display:            flex;
+    display:            inline-block;
     width:              100%;
+    min-height:         100%;
     background-color:   #f6f6f6;
 }
 
-
-
 /* Properties for each section in article */
 .content {
+    display:            inline-block;
+    width:              60%;
+    padding:            1em;
+}
+
+.section_paragraph {
     display:            block;
-    width:              30%;
-    padding:            4em;
+    margin-left:        18em;
 }
 
 /* Properties of images in article */
 article img {
-    display:            inline;
+    display:            block;
     float:              left;
-    height:             300px;
-    width:              300px;
+    height:             15em;
+    width:              15em;
     border-radius:      50%;
     margin:             0 0.5em 0.5em 0;
 }
@@ -99,6 +106,7 @@ article img {
 article p, h2 {
     font-family:        Verdana, Tahoma, sans-serif;
     display:            inline;
+    line-height:        150%;
 }
 
 /* Properties for paragraph-text */
@@ -113,10 +121,11 @@ footer {
     text-align:         center;
 }
 
-/* Changes appearance of go-to-top button */
+/* Changes appearance of buttons */
 button {
     background-color:   white; /* goes green on hover */
     border:             none;
+    border-radius:      8px;
     color:              black;
     padding:            15px 30px;
     text-align:         center;
@@ -128,14 +137,21 @@ button {
     cursor:             pointer;
     -webkit-transition-duration:    0.4s; /* Safari */
     transition-duration:            0.4s;
+
 }
 
-/* :onhover of go-to-top button */
+/* :onhover of  buttons */
 button:hover {
     background-color:   #4CAF50;
     color:              white;
 }
 
+/* on clicked properties of buttons */
+button:active {
+    background-color:   #3e8e41;
+}
+
+/* Special properties of slideshow buttons */
 .pic_button {
     width:              10em;
     height:             4em;
@@ -147,10 +163,11 @@ button:hover {
 footer span {
     font-family:        Verdana, Tahoma, sans-serif;
     color:              lightgray;
+    line-height: 150%;
 }
 
 /* Properties for URL in footer */
 footer a {
     text-decoration:    none;
     color:              #eaeaea;
-}   
+}
