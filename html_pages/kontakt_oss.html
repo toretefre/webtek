@@ -1,3 +1,10 @@
+<!--
+FILE NAME: kontakt_oss.html
+WRITTEN BY: Trym Høgelid
+WHEN: November 2016
+PURPOSE: Page for contacting Gravberget
+-->
+
 <!DOCTYPE html>
 <html lang="no">
 <head>
@@ -35,9 +42,9 @@
             <article>
                 <section class="content">
                     <form name ="contactForm" id="contactForm" onsubmit="return insertMessage()">
-                        <label>Navn <input name="name" id ="enter_name" required><br></label>
-                        <label>Emne: <input name="subject" id = "enter_subject" required><br></label>
-                        <label>Melding: <input name="message" id = "enter_message" required></label>
+                        <label>Navn <input name="name" id ="enter_name" placeholder="Skriv inn navnet ditt..." required><br></label>
+                        <label>Emne: <input name="subject" id = "enter_subject" placeholder="Skriv inn emne..." required><br></label>
+                        <label>Melding: <input name="message" id = "enter_message" placeholder="Skriv inn meldingen din..." required></label>
                         <input type="submit" id="submit" name="submit" value="Send">
                     </form>
                 </section>
