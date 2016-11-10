@@ -19,7 +19,7 @@ window.onload = function() {
 	}
 
 
-	/*setInterval(nextPicture,5000)*/
+	/*setInterval(nextPicture,5000) viss vi skal ha automatisk slideshow*/
 
 
 function nextPicture() {
