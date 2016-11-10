@@ -1,5 +1,5 @@
 function scrollToAnyElement(divId) {
-    var diff=(item.offsetTop-window.scrollY)/8
+    var diff=(divId.offsetTop-window.scrollY)/8
 
     if (Math.abs(diff)>1) {
         window.scrollTo(0, (window.scrollY+diff))
