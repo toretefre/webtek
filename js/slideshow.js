@@ -28,7 +28,7 @@ function nextPicture() {
 	}
 	img.setAttribute('src',images[currentImage]);
 	img.onload = function() {
-		context.drawImage(img,0,0,600,600);
+		context.drawImage(img,0,0,900,600);
 		}
 	}
 
@@ -38,7 +38,7 @@ function previousPicture() {
 	}
 	img.setAttribute('src',images[currentImage]);
 	img.onload = function(){ 
-		context.drawImage(img,0,0,600,600);
+		context.drawImage(img,0,0,900,600);
 		}
 	}
 
