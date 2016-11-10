@@ -34,10 +34,11 @@
 
             <article>
                 <section class="content">
-                    <form>
-                        Navn: <input name="name" required><br>
-                        Emne: <input name="subject" required><br>
-                        Melding: <input name="message" required>
+                    <form name ="contactForm" id="contactForm" onsubmit="return insertMessage()">
+                        <label>Navn <input name="name" id ="enter_name" required><br></label>
+                        <label>Emne: <input name="subject" id = "enter_subject" required><br></label>
+                        <label>Melding: <input name="message" id = "enter_message" required></label>
+                        <input type="submit" id="submit" name="submit" value="Send">
                     </form>
                 </section>
 
@@ -52,5 +53,6 @@
     <footer id="footer" onload="insertFooter()">    </footer>
     <script src="../js/modularity.js"></script>
     <script src="../js/scroll.js"></script>
+    <script src="../js/message_script.js"></script>
 </body>
 </html>
