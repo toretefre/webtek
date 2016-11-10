@@ -74,7 +74,7 @@ li a, .dropbutton {
     position:           absolute;
     background-color:   #eaeaea;
     width:              160px;
-    box-shadow:         10px 10px 20px 0px rgba(0,0,0,0.2)
+    box-shadow:         10px 10px 20px 0 rgba(0,0,0,0.2)
 }
 /*Properties for the links*/
 .dropdown-content a{
@@ -122,6 +122,11 @@ article {
 }
 
 .section_paragraph {
+    margin:             1em 5em 1em 5em;
+}
+
+/* provides left margin for paragraphs at index.html */
+.index_section_paragraph {
     display:            block;
     margin-left:        18em;
 }
