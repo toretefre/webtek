@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Startside - Gravbergets Venner</title>
+    <link rel="stylesheet" type="text/css" href="../structure/stylesheet.css">
+</head>
+<body>
+    <header>
+        <img class="header_pic" src="../images/header.jpg"
+         alt="Høgskyhytta Gravberget - Bilde fra Statskog@flickr.com">
+    </header>
+
+        <main>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="../html_pages/index.html">Hjem</a></li>
+                    <li><a href="../html_pages/om_oss.html">Om oss</a></li>
+                    <li class="dropdown">
+                        <a href="../html_pages/om_gravberget.html" class="dropbtn">Om Gravberget</a>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 1</a>
+                        </div>
+                    </li>
+                    <li><a href="../html_pages/severdigheter.html">Severdigheter</a></li>
+                    <li><a href="../html_pages/turloyper.html">Turløyper</a></li>
+                    <li><a href="../html_pages/aktiviteter.html">Aktiviteter</a></li>
+                    <li><a href="../html_pages/bilder.html">Bilder</a></li>
+                    <li><a href="../html_pages/slektstre.html">Slektstre</a></li>
+                </ul>
+            </nav>
+
+            <article>
+                <section class="content">
+                    <form>
+                        Navn: <input name="name" required><br>
+                        Emne: <input name="subject" required><br>
+                        Melding: <input name="message" required>
+                    </form>
+                </section>
+
+                <aside>
+                <script class="yr" src="http://www.yr.no/sted/Norge/Hedmark/Våler/Gravberget/ekstern_boks_liten.js">
+                </script><noscript><a href="http://www.yr.no/sted/Norge/Hedmark/Våler/Gravberget/">
+                yr.no: Værvarsel for Gravberget</a></noscript>
+                </aside>
+            </article>
+        </main>
+
+    <footer id="footer" onload="insertFooter()">    </footer>
+    <script src="../js/modularity.js"></script>
+    <script src="../js/scroll.js"></script>
+</body>
+</html>
