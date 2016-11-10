@@ -23,7 +23,7 @@ window.onload = function() {
 
 
 function nextPicture() {
-	if(currentImage < 2) {
+	if(currentImage < images.length-1) {
 		currentImage++;
 	}
 	img.setAttribute('src',images[currentImage]);
