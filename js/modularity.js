@@ -6,6 +6,6 @@ window.onload = function insertFooter() {
 	footerContent.innerHTML = 'Laget av studenter på <a href="https://www.ntnu.no/studier/bit">Informatikk ved NTNU i Trondheim</a>.<br><a href="mailto:gravberget@list.stud.ntnu.no" target="_top">Send oss en e-post!</a>';
 	footer.appendChild(footerContent);
 	console.log(123123)
-}
+};
 
 //onload snurr film!
