@@ -14,22 +14,31 @@ window.onload = function() {
 
 	img.setAttribute('width','600');
 	img.setAttribute('height','600')
-	nextPicture();
+	img.setAttribute('src',images[currentImage]);
+	previousPicture()
+	}
+
 
 	/*setInterval(nextPicture,5000)*/
-}
+
 
 function nextPicture() {
-	img.setAttribute('src',images[currentImage++]);
+	if(currentImage < 2) {
+		currentImage++;
+	}
+	img.setAttribute('src',images[currentImage]);
 	img.onload = function() {
-		if(currentImage >= images.length) {currentImage = 0;}
-	context.drawImage(img,0,0,600,600);
-	console.log(currentImage);}}
+		context.drawImage(img,0,0,600,600);
+		}
+	}
 
 function previousPicture() {
-	img.setAttribute('src',images[currentImage--]);
-	img.onload = function() {
-		if(currentImage < 0) {currentImage =0}
-	context.drawImage(img,0,0,600,600);
-	console.log(currentImage);}}
+	if(!currentImage <= 0) {
+		currentImage--;
+	}
+	img.setAttribute('src',images[currentImage]);
+	img.onload = function(){ 
+		context.drawImage(img,0,0,600,600);
+		}
+	}
 
