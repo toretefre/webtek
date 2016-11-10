@@ -1,14 +1,11 @@
-element = document.getElementById("footer")
-document.getElementById("knappen").addEventListener("click", scrollTo(document.header, element.offsetTop, 600))
-function scrollTo(element, to, time) {
-    if (time<=0) return;
-    let difference = to - element.scrollTop;
-    let eachTick = difference/time*10;
+function scrollToAnyElement(divId) {
+    var diff=(item.offsetTop-window.scrollY)/8
 
-    setTimeout(function() {
-        element.scrollTop = element.scrollTop+eachTick;
-        if (element.scrollTop === to) return;
-        scrollTo(element, to, time - 10);
-    }, 10);
+    if (Math.abs(diff)>1) {
+        window.scrollTo(0, (window.scrollY+diff))
+        clearTimeout(window._TO)
+        window._TO=setTimeout(scrollToAnyElement, 30, divId)
+    } else {
+        window.scrollTo(0, divId.offsetTop)
+    }
 }
-//scrollTo(document.header, element.offsetTop, 600);
