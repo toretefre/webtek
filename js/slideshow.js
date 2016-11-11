@@ -1,4 +1,10 @@
-/* Code for the slideshow */
+/*
+FILE NAME: slideshow.js
+WRITTEN BY: Trym Høgelid
+WHEN: November 2016
+PURPOSE: javascript for the slideshow in bilder.html
+*/
+
 var images = ["http://hdwallpapershdpics.com/wp-content/uploads/2016/10/best-nature-desktop-hd-wallpaper.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJFT4-MZhnQd5QPGQmsHvA5OyHqKtq8VJrmXXYshcb-mBhDpAQ1A","https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR-5I6AHSmlOPOceABsN13fA-3QZANkfeK2LDTv-NFOPEvx99rpng"];
 var showCanvas = null;
 var context = null;
