@@ -41,12 +41,16 @@ PURPOSE: Page for contacting Gravberget
 
             <article>
                 <section class="content">
+                    <section class="form">
                     <form name ="contactForm" id="contactForm" onsubmit="return insertMessage()">
-                        <label>Navn <input name="name" id ="enter_name" placeholder="Skriv inn navnet ditt..." required><br></label>
-                        <label>Emne: <input name="subject" id = "enter_subject" placeholder="Skriv inn emne..." required><br></label>
-                        <label>Melding: <input name="message" id = "enter_message" placeholder="Skriv inn meldingen din..." required></label>
-                        <input type="submit" id="submit" name="submit" value="Send">
+                        <label>Navn: <input name="name" id ="enter_name" placeholder="Skriv inn navnet ditt..." required><br><br></label>
+                        <label>Emne: <input name="subject" id = "enter_subject" placeholder="Skriv inn emne..." required><br><br></label>
                     </form>
+                        <label>Melding:
+                            <textarea rows="4" cols="50" name="comment" form="contactForm"></textarea><br>
+                        </label>
+                    <input type="submit" form="contactForm" class="knappen" id="submit" name="submit" value="Send" onclick="insertMessage()">
+                    </section>
                 </section>
 
                 <aside>
