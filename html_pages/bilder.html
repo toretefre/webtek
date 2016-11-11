@@ -19,17 +19,23 @@
                     <li><a href="../html_pages/om_gravberget.html">Om Gravberget</a></li>
                     <li><a href="../html_pages/severdigheter.html">Severdigheter</a></li>
                     <li><a href="../html_pages/turloyper.html">Turløyper</a></li>
-                    <li><a href="../html_pages/aktiviteter.html">Aktiviteter</a></li>
+                    <li><a href="../html_pages/kontakt_oss.html">Kontakt Oss</a></li>
                     <li><a href="../html_pages/bilder.html">Bilder</a></li>
                     <li><a href="../html_pages/slektstre.html">Slektstre</a></li>
                 </ul>
             </nav>
 
             <article>
+                
                 <section class="content">
-                    <button class="pic_button" id="btnPrev" onclick="previousPicture()">Forrige bilde</button>
-                    <canvas id="myCanvas" width ="600" height="600"></canvas>
-                    <button class="pic_button" onclick="nextPicture()">Neste bilde</button>
+                    <section class="section_paragraph">
+                        <p>Her er noen bilder fra Gravberget:</p>
+                    </section>
+                    <section class = "section_paragraph"> 
+                        <button class="pic_button" id="btnPrev" onclick="previousPicture()">Forrige bilde</button>
+                        <canvas id="myCanvas" width ="900" height="600"></canvas>
+                        <button class="pic_button" onclick="nextPicture()">Neste bilde</button>
+                    </section>
                 </section>
                 <aside>
                     <script class="yr" src="http://www.yr.no/sted/Norge/Hedmark/Våler/Gravberget/ekstern_boks_liten.js">
@@ -43,9 +49,10 @@
             <span>
                 Laget av studenter på <a href="https://www.ntnu.no/studier/bit">Informatikk ved NTNU i Trondheim</a>.<br>
                 <a href="mailto:gravberget@list.stud.ntnu.no" target="_top">Send oss en e-post!</a><br>
-                <button type="button" class="knappen" >Gå til toppen</button>
+                <button type="button" class="knappen" onclick="scrollToAnyElement('header-pic')">Gå til toppen</button>
             </span>
     </footer>
     <script src="../js/slideshow.js" type="text/javascript"></script>
+    <script src="../js/scroll.js"></script>
 </body>
 </html>

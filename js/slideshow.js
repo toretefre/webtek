@@ -1,4 +1,10 @@
-/* Code for the slideshow */
+/*
+FILE NAME: slideshow.js
+WRITTEN BY: Trym Høgelid
+WHEN: November 2016
+PURPOSE: javascript for the slideshow in bilder.html
+*/
+
 var images = ["http://hdwallpapershdpics.com/wp-content/uploads/2016/10/best-nature-desktop-hd-wallpaper.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJFT4-MZhnQd5QPGQmsHvA5OyHqKtq8VJrmXXYshcb-mBhDpAQ1A","https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR-5I6AHSmlOPOceABsN13fA-3QZANkfeK2LDTv-NFOPEvx99rpng"];
 var showCanvas = null;
 var context = null;
@@ -14,22 +20,31 @@ window.onload = function() {
 
 	img.setAttribute('width','600');
 	img.setAttribute('height','600')
-	nextPicture();
+	img.setAttribute('src',images[currentImage]);
+	previousPicture()
+	}
 
-	/*setInterval(nextPicture,5000)*/
-}
+
+	/*setInterval(nextPicture,5000) viss vi skal ha automatisk slideshow*/
+
 
 function nextPicture() {
-	img.setAttribute('src',images[currentImage++]);
+	if(currentImage < images.length-1) {
+		currentImage++;
+	}
+	img.setAttribute('src',images[currentImage]);
 	img.onload = function() {
-		if(currentImage >= images.length) {currentImage = 0;}
-	context.drawImage(img,0,0,600,600);
-	console.log(currentImage);}}
+		context.drawImage(img,0,0,900,600);
+		}
+	}
 
 function previousPicture() {
-	img.setAttribute('src',images[currentImage--]);
-	img.onload = function() {
-		if(currentImage < 0) {currentImage =0}
-	context.drawImage(img,0,0,600,600);
-	console.log(currentImage);}}
+	if(!currentImage <= 0) {
+		currentImage--;
+	}
+	img.setAttribute('src',images[currentImage]);
+	img.onload = function(){ 
+		context.drawImage(img,0,0,900,600);
+		}
+	}
 
