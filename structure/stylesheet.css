@@ -193,6 +193,17 @@ button:active {
     margin:             auto 1em auto 1em;
 }
 
+/* Special properties of trekant in to-top button*/
+.trekant {
+  height: 0;
+  width: 0;
+  border: 0 solid transparent;
+  border-right-width: 14px;
+  border-left-width: 14px;
+  border-bottom: 14px solid black;
+}
+
+
 /* Properties for text in footer. */
 footer span {
     font-family:        Verdana, Tahoma, sans-serif;

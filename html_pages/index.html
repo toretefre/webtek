@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <title>Startside - Gravbergets Venner</title>
     <link rel="stylesheet" type="text/css" href="../structure/stylesheet.css">
-	<script src="../js/scroll.js"></script>
 </head>
 <body>
     <header>
         <img class="header_pic" src="../images/header.jpg"
          alt="Høgskyhytta Gravberget - Bilde fra Statskog@flickr.com">
+         <div class="anchor" id="theAnchor"></div>
     </header>
 
         <main>
@@ -80,8 +80,9 @@
             <span>
                 Laget av studenter på <a href="https://www.ntnu.no/studier/bit">Informatikk ved NTNU i Trondheim</a>.<br>
                 <a href="mailto:gravberget@list.stud.ntnu.no" target="_top">Send oss en e-post!</a><br>
-				 <button type="button" class="knappen" onclick="scrollToAnyElement("header-pic")">Gå til toppen</button>
+				 <button type="button" class="knappen" id="knappen" onclick="smoothScroll('theAnchor')"><div class="trekant"></div></button>
             </span>
     </footer>
+    <script src="../js/scroll.js"></script>
 </body>
 </html>
