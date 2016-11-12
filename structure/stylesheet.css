@@ -116,17 +116,25 @@ article {
     display:            inline-block;
     width:              70%;
     padding:            3em 1em 3em 5em;
-    margin:5px auto;
+    margin:             0 auto;
 }
 
+/* Properties for each paragraph in content */
 .section_paragraph {
-    margin:             1em 5em 1em 5em;
+    margin:             0 auto;
+    width:              650px;
 }
 
 /* provides left margin for paragraphs at index.html */
 .index_section_paragraph {
     display:            block;
-    margin-left:        22em;
+    margin-left:        20em;
+}
+
+.styre_liste {
+    list-style:         none;
+    font-family:        Verdana, Tahoma, sans-serif;
+    padding-top:        0.5em;
 }
 
 label {
@@ -140,11 +148,11 @@ label {
 
 /* Changes properties for form */
 .form {
-    padding:            10px;
+    margin-top:         1em;
+    padding:            1em;
     border:             2px solid darkslategray;
     border-radius:      2em;
     width:              500px;
-    margin: 0;
 }
 /*Changes properties for submit button */
 #submit {
