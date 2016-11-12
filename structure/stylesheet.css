@@ -118,7 +118,7 @@ article {
 .content {
     display:            inline-block;
     width:              60%;
-    padding:            10px
+    padding:            3em 1em 3em 5em;
 }
 
 .section_paragraph {
@@ -128,7 +128,7 @@ article {
 /* provides left margin for paragraphs at index.html */
 .index_section_paragraph {
     display:            block;
-    margin-left:        18em;
+    margin-left:        22em;
 }
 
 label {
