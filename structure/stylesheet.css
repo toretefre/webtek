@@ -109,7 +109,9 @@ aside {
 /* Properties for main content (article) of page */
 article {
     display:            inline-block;
-    width:              100%;
+    width:              50%;
+    margin-left:        auto;
+    margin-right:       auto;
     min-height:         100%;
     background-color:   #f6f6f6;
 }
@@ -117,8 +119,7 @@ article {
 /* Properties for each section in article */
 .content {
     display:            inline-block;
-    width:              60%;
-    padding:            3em 1em 3em 5em;
+    width:              50%;
 }
 
 .section_paragraph {
