@@ -68,25 +68,25 @@ li a, .dropbutton {
     padding:            14px 16px;
     text-decoration:    none;
 }
-/*Properties for the box and shadow in dropdown*/
+/*Properties for the box and the shadow in dropdown*/
 .dropdown-content{
     display:            none;
     position:           absolute;
-    background-color:   #eaeaea;
+    background-color:   darkslategrey;
     width:              160px;
     box-shadow:         10px 10px 20px 0 rgba(0,0,0,0.2)
 }
 /*Properties for the links*/
 .dropdown-content a{
-    color:              black;
+    color:              white;
     padding:            12px 16px;
     text-decoration:    none;
     display:            block;
     text-align:         left;
 }
-/*Changes colour on links in the dropdown*/
+/*Changes colour on hover in the dropdown*/
 .dropdown-content a:hover {
-    background-color:   #f1f1f1
+    background-color:   mediumseagreen;
 }
 
 /*Show the driodown menu on hover*/
