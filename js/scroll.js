@@ -1,3 +1,11 @@
+/*
+FILE NAME: scroll.js
+WRITTEN BY: Vebjørn Andersen
+WHEN: November 2016
+PURPOSE: Scrolls smooth up from the bootom of the page
+*/
+
+
 //Funksjon for kompatibilitet, ettersom eldre versjoner av browsere kun hadde body.scrollTop/scrollTop eller pageYOffset (sannsynligvis support for DOM.scrollTop)
 //Denne returnerer også startingpoint
 function currentYPosition() {
