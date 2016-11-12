@@ -8,7 +8,7 @@ PURPOSE: Make footer and nav-bar modular.
 const footer = document.getElementById('footer');
 const navBar = document.getElementById('navbaren');
 
-window.onload = function insertFooter() {
+window.onload = function insertModularContent() {
 	let footerContent = document.createElement('span');
 	footerContent.innerHTML = "Laget av studenter på <a href='https://www.ntnu.no/studier/bit'>Informatikk ved NTNU i Trondheim</a>.<br>" +
 		"<a href='mailto:gravberget@list.stud.ntnu.no' target='_top'>Send oss en e-post!</a><br> " +
