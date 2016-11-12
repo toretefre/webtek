@@ -155,6 +155,7 @@ article img {
     height:             15em;
     width:              15em;
     border-radius:      50%;
+    border:             2px solid darkslategray;
     margin:             0 0.5em 0.5em 0;
 }
 
