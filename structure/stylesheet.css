@@ -73,7 +73,7 @@ li a, .dropbutton {
     display:            none;
     position:           absolute;
     background-color:   darkslategrey;
-    width:              7em;
+    width:              7.6em;
     box-shadow:         10px 10px 20px 0 rgba(0,0,0,0.2)
 }
 /*Properties for the links*/

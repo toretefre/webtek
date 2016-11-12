@@ -5,17 +5,20 @@ WHEN: November 2016
 PURPOSE: javascript for the slideshow in bilder.html
 */
 
-var images = ["http://hdwallpapershdpics.com/wp-content/uploads/2016/10/best-nature-desktop-hd-wallpaper.jpg","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJFT4-MZhnQd5QPGQmsHvA5OyHqKtq8VJrmXXYshcb-mBhDpAQ1A","https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR-5I6AHSmlOPOceABsN13fA-3QZANkfeK2LDTv-NFOPEvx99rpng"];
+var images = ["../images/dugnad11.jpg","../images/dugnad16.jpg"];
 var showCanvas = null;
 var context = null;
 var img = document.createElement("img");
 var currentImage = 0;
 var getBtn = document.getElementById("btnPrev");
 
-window.onload = function() {
+window.addEventListener ? 
+window.addEventListener("load",load(),false) : 
+window.attachEvent && window.attachEvent("onload",load());
+
+function load() {
 	showCanvas = document.getElementById("myCanvas");
 	context = showCanvas.getContext("2d");
-
 	img.setAttribute('width','600');
 	img.setAttribute('height','600')
 	img.setAttribute('src',images[currentImage]);
