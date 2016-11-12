@@ -1,6 +1,13 @@
-//modularity av Claus
+/*
+FILE NAME: modularity.js
+WRITTEN BY: Claus Martinsen
+WHEN: November 2016
+PURPOSE: Make footer and nav-bar modular.
+*/
+
 const footer = document.getElementById('footer');
-//lager innholdet i <footer> på hver side som kjører skriptet
+//const navBar = document.getElementById('')
+
 window.onload = function insertFooter() {
 	let footerContent = document.createElement('span');
 	footerContent.innerHTML = "Laget av studenter på <a href='https://www.ntnu.no/studier/bit'>Informatikk ved NTNU i Trondheim</a>.<br>" +
@@ -11,5 +18,3 @@ window.onload = function insertFooter() {
 	footer.appendChild(footerContent);
 	console.log(123123)
 };
-
-//onload snurr film!
