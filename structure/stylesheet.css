@@ -142,9 +142,15 @@ label {
 /* Changes properties for form */
 .form {
     padding:            10px;
-    border:             2px solid hotpink;
+    border:             2px solid darkslategray;
     border-radius:      2em;
     width:              500px;
+}
+/*Changes properties for submit button */
+#submit {
+    width:150px;
+    height:50px;
+    
 }
 
 /* Properties of images in article */

@@ -24,6 +24,8 @@ PURPOSE: Page for contacting Gravberget
 
             <article>
                 <section class="content">
+                    <section class="section_paragraph">
+                    <p> Her kan du skrive en mail til oss hvis du har noe på hjertet.</p><br><br><br>
                     <section class="form">
                     <form name ="contactForm" id="contactForm" onsubmit="return insertMessage()">
                         <label>Navn: <input name="name" id ="enter_name" placeholder="Skriv inn navnet ditt..." required><br><br></label>
@@ -33,6 +35,7 @@ PURPOSE: Page for contacting Gravberget
                             <textarea rows="4" cols="50" name="comment" form="contactForm" placeholder="Melding..." id = "enter_message"></textarea><br>
                         </label>
                     <input type="submit" form="contactForm" class="knappen" id="submit" name="submit" value="Send" onclick="insertMessage()">
+                    </section>
                     </section>
                 </section>
 
