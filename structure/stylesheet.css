@@ -109,9 +109,7 @@ aside {
 /* Properties for main content (article) of page */
 article {
     display:            inline-block;
-    width:              50%;
-    margin-left:        auto;
-    margin-right:       auto;
+    width:              100%;
     min-height:         100%;
     background-color:   #f6f6f6;
 }
@@ -119,7 +117,8 @@ article {
 /* Properties for each section in article */
 .content {
     display:            inline-block;
-    width:              50%;
+    width:              60%;
+    padding:            3em 1em 5em 5em;
 }
 
 .section_paragraph {
@@ -219,12 +218,12 @@ button:active {
 
 /* Special properties of trekant in to-top button*/
 .trekant {
-  height: 0;
-  width: 0;
-  border: 0 solid transparent;
-  border-right-width: 14px;
-  border-left-width: 14px;
-  border-bottom: 14px solid black;
+  height:               0;
+  width:                0;
+  border:               0 solid transparent;
+  border-right-width:   14px;
+  border-left-width:    14px;
+  border-bottom:        14px solid black;
 }
 
 
