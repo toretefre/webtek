@@ -11,7 +11,6 @@ var context = null;
 var img = document.createElement("img");
 var currentImage = 0;
 var getBtn = document.getElementById("btnPrev");
-getBtn.addEventListener("onclick", previousPicture)
 
 
 window.onload = function() {
