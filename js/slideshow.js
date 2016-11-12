@@ -5,7 +5,7 @@ WHEN: November 2016
 PURPOSE: javascript for the slideshow in bilder.html
 */
 
-var images = ["../images/dugnad11.jpg","../images/dugnad16.jpg"];
+var images = ["../images/dugnad11.jpg"];
 var showCanvas = null;
 var context = null;
 var img = document.createElement("img");
@@ -33,6 +33,8 @@ function nextPicture() {
 	if(currentImage < images.length-1) {
 		currentImage++;
 	}
+    else
+        currentImage=0;
 	img.setAttribute('src',images[currentImage]);
 	img.onload = function() {
 		context.drawImage(img,0,0,900,600);
@@ -43,6 +45,8 @@ function previousPicture() {
 	if(!currentImage <= 0) {
 		currentImage--;
 	}
+    else
+        currentImage=images.length-1
 	img.setAttribute('src',images[currentImage]);
 	img.onload = function(){
 		context.drawImage(img,0,0,900,600);
