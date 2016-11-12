@@ -12,7 +12,6 @@ var img = document.createElement("img");
 var currentImage = 0;
 var getBtn = document.getElementById("btnPrev");
 
-
 window.onload = function() {
 	showCanvas = document.getElementById("myCanvas");
 	context = showCanvas.getContext("2d");
