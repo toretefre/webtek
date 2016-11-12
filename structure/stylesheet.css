@@ -117,6 +117,7 @@ article {
     display:            inline-block;
     width:              80%;
     padding:            3em 1em 5em 5em;
+    margin:5px auto;
 }
 
 .section_paragraph {
@@ -141,9 +142,17 @@ label {
 /* Changes properties for form */
 .form {
     padding:            10px;
-    border:             2px solid hotpink;
+    border:             2px solid darkslategray;
     border-radius:      2em;
     width:              500px;
+    margin: 0;
+}
+/*Changes properties for submit button */
+#submit {
+    width:150px;
+    height:50px;
+    display:block;
+    margin:5px auto;
 }
 
 /* Properties of images in article */
