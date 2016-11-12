@@ -245,7 +245,7 @@ footer a {
 }
 
 /* Makes page mobile friendly for devices with screen width 600px */
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     header {
         display:        none;
     }
