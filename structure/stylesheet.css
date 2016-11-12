@@ -99,9 +99,8 @@ aside {
     display:            inline-block;
     right:              0;
     float:              right;
-    width:              20%;
     background-color:   #f6f6f6;
-    padding:            3em 1em 1em 2em;
+    padding:            3em;
 }
 
 /* Properties for main content (article) of page */
@@ -115,8 +114,8 @@ article {
 /* Properties for each section in article */
 .content {
     display:            inline-block;
-    width:              80%;
-    padding:            3em 1em 5em 5em;
+    width:              70%;
+    padding:            3em 1em 3em 5em;
     margin:5px auto;
 }
 
