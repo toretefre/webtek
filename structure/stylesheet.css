@@ -100,7 +100,6 @@ aside {
     right:              0;
     float:              right;
     width:              20%;
-    height:             auto;
     background-color:   #f6f6f6;
     border-left:        1px solid #121212;
     padding:            10px;
@@ -164,6 +163,11 @@ article p, h2 {
     font-family:        Verdana, Tahoma, sans-serif;
     display:            inline;
     line-height:        150%;
+}
+
+/* Gjør footer-tekst hvit */
+footer p {
+    color:              white;
 }
 
 /* Properties for paragraph-text */
@@ -239,3 +243,34 @@ footer a {
     text-decoration:    none;
     color:              #eaeaea;
 }
+
+/* Makes page mobile friendly for devices with screen width 600px */
+@media (max-width: 600px) {
+    header {
+        display:        none;
+    }
+
+    .round_images {
+         display:        none;
+    }
+
+    aside {
+        display:        none;
+    }
+
+    nav {
+        top:            0;
+    }
+
+    .content {
+        width:          95%;
+        padding:        1em 0 1em 0;
+    }
+
+    .index_section_paragraph {
+        width:          95%;
+        margin:         auto;
+    }
+}
+
+
