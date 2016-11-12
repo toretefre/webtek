@@ -5,7 +5,7 @@ window.onload = function insertFooter() {
 	let footerContent = document.createElement('span');
 	footerContent.innerHTML = "Laget av studenter på <a href='https://www.ntnu.no/studier/bit'>Informatikk ved NTNU i Trondheim</a>.<br>" +
 		"<a href='mailto:gravberget@list.stud.ntnu.no' target='_top'>Send oss en e-post!</a><br> " +
-		"<button class='knappen' onclick='smoothScroll(\"theAnchor\")'><div class='trekant'></div></button>";
+		"<button class='knappen' id = 'theAnchor' onclick='smoothScroll(\"theAnchor\")'>"+"<div class='trekant'></div></button>";
 	footer.appendChild(footerContent);
 	console.log(123123)
 };
