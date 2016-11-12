@@ -101,8 +101,7 @@ aside {
     float:              right;
     width:              20%;
     background-color:   #f6f6f6;
-    border-left:        1px solid #121212;
-    padding:            10px;
+    padding:            3em 1em 1em 2em;
 }
 
 /* Properties for main content (article) of page */
@@ -148,11 +147,11 @@ label {
 }
 
 /* Properties of images in article */
-article img {
+.round_images {
     display:            block;
     float:              left;
-    height:             15em;
-    width:              15em;
+    height:             17em;
+    width:              17em;
     border-radius:      50%;
     border:             2px solid darkslategray;
     margin:             0 0.5em 0.5em 0;
@@ -244,14 +243,46 @@ footer a {
     color:              #eaeaea;
 }
 
-/* Makes page mobile friendly for devices with screen width 600px */
-@media (max-width: 1000px) {
+@media only screen and (min-width:800px) and (max-width:1200px)  {
     header {
         display:        none;
     }
 
     .round_images {
-         display:        none;
+        height:         20%;
+        width:          100%;
+        border-radius:  0;
+        border:         0;
+    }
+
+    aside {
+        display:        none;
+    }
+
+    nav {
+        top:            0;
+    }
+
+    .content {
+        width:          100%;
+        padding:        1em 0 1em 0;
+    }
+
+    .index_section_paragraph {
+        width:          95%;
+        margin:         auto;
+    }
+}
+
+
+/* Makes page mobile friendly for devices with screen width 600px */
+@media (max-width: 799px) {
+    header {
+        display:        none;
+    }
+
+    .round_images {
+         display:       none;
     }
 
     aside {
