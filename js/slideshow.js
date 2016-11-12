@@ -12,8 +12,8 @@ var img = document.createElement("img");
 var currentImage = 0;
 var getBtn = document.getElementById("btnPrev");
 
-window.addEventListener ? 
-window.addEventListener("load",load(),false) : 
+window.addEventListener ?
+window.addEventListener("load",load(),false) :
 window.attachEvent && window.attachEvent("onload",load());
 
 function load() {
@@ -44,8 +44,10 @@ function previousPicture() {
 		currentImage--;
 	}
 	img.setAttribute('src',images[currentImage]);
-	img.onload = function(){ 
+	img.onload = function(){
 		context.drawImage(img,0,0,900,600);
 		}
 	}
-
+for (i=1;i<15;i++){
+	images.push("../images/slideshow/slideImg ("+i+").jpg")
+}
