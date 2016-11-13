@@ -132,7 +132,7 @@ article {
 
 /* Properties for each paragraph in content */
 .section_paragraph {
-    margin:             2em auto;
+    margin:             7em auto;
     width:              500px;
 }
 
@@ -140,7 +140,7 @@ article {
 .index_section_paragraph {
     display:            block;
     max-width:          500px;
-    margin-left:        20em;
+    margin-left:        25em;
 }
 
 .styre_liste {
