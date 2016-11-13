@@ -12,7 +12,7 @@ window.onload = function insertModularContent() {
 	let footerContent = document.createElement('span');
 	footerContent.innerHTML =
 		"<button class='knappen' id = 'theAnchor' onclick='smoothScroll(\"theAnchor\")'><div class='trekant'></div></button><br>" +
-		"<button class ='knappen' id = 'button' onclick='loadSitemap()'>Sitemap </button><br>" +
+		"<button class ='knappen' id = 'button' onclick='loadSitemap(); smoothScroll(\"theBottomAnchor\");'>Sitemap </button><br>" +
 		"<a href='mailto:gravberget@list.stud.ntnu.no' target='_top'>Kontakt webmaster</a><br>" +
 		"<p>Laget av <a href='https://www.ntnu.no/studier/bit'>informatikkstudenter ved NTNU i Trondheim</a>.</p>";
 
