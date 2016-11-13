@@ -299,10 +299,10 @@ header span {
     top:                1em;
     left:               1.5em;
     width:              100%;
-    font-family:        "Comic Sans MS";
+    font-family:        "Comic Sans MS", cursive, sans-serif;
     font-weight:        bold;
-    font-size:          1.5em;
-    letter-spacing:     1.5em;
+    font-size:          2em;
+    letter-spacing:     1em;
     color:              darkslategray;
 
 }
