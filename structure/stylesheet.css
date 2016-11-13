@@ -7,14 +7,13 @@
 /* Makes sure page is using full height of viewport */
 body {
     display:            flex;
-    min-height:         100vh;
-    _height:            100vh;
+    height:             100%;
     flex-direction:     column;
 }
 
 /* Makes footer stick to bottom */
 main {
-    flex:               1;
+    flex:               1 1 auto;
     background-color:   #f6f6f6;
 }
 
