@@ -125,7 +125,7 @@ article {
 /* Properties for each section in article */
 .content {
     display:            inline-block;
-    max-width:          70%;
+    max-width:          75%;
     padding:            3em 1em 3em 5%;
     margin:             auto;
 }
@@ -133,13 +133,13 @@ article {
 /* Properties for each paragraph in content */
 .section_paragraph {
     margin:             2em auto;
-    width:              650px;
+    width:              700px;
 }
 
 /* provides left margin for paragraphs at index.html */
 .index_section_paragraph {
     display:            block;
-    max-width:          650px;
+    max-width:          700px;
     margin-left:        20em;
 }
 
