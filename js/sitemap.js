@@ -14,7 +14,7 @@ closeButton.id = "closeSitemap";
 closeButton.class = "knappen";
 closeButton.style.display = "none";
 function loadSitemap() {
-	img.src = "../images/dugnad11.jpg"
+	img.src = "../images/dugnad11.jpg";
 	img.width = 200;
 	img.height = 200;
 	img.alt = "Sitemap";
