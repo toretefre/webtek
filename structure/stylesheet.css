@@ -308,7 +308,7 @@ header span {
 }
 
 /* Makes page mobile friendly for devices with screen width 900px */
-@media (max-width: 899px) {
+@media (max-width: 919px) {
     header {
         display:        none;
     }
