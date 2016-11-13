@@ -133,7 +133,7 @@ article {
 /* provides left margin for paragraphs at index.html */
 .index_section_paragraph {
     display:            block;
-    width:              650px;
+    max-width:          650px;
     margin-left:        20em;
 }
 
