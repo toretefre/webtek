@@ -270,12 +270,12 @@ button:active {
 
 /* Special properties of trekant in to-top button*/
 .trekant {
-    height:               0;
-    width:                0;
-    border:               0 solid transparent;
-    border-right-width:   14px;
-    border-left-width:    14px;
-    border-bottom:        14px solid black;
+    height:             0;
+    width:              0;
+    border:             0 solid transparent;
+    border-right-width: 14px;
+    border-left-width:  14px;
+    border-bottom:      14px solid black;
 }
 
 /* Properties for text in footer. */
@@ -283,12 +283,21 @@ footer span {
     font-family:        Verdana, Tahoma, sans-serif;
     color:              lightgray;
     line-height:        150%;
+    margin:             0 auto;
 }
 
 /* Properties for URL in footer */
 footer a {
     text-decoration:    none;
     color:              #eaeaea;
+}
+
+#sitemap {
+    margin:             0.5em auto;
+}
+
+#closeSitemap {
+    margin:             0.5em auto;
 }
 
 @media (max-width: 1175px) {
