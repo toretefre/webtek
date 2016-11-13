@@ -314,7 +314,7 @@ header span {
     color:              darkslategray;
 }
 
-@media (max-width: 1175px) {
+@media (max-width: 1275px) {
     aside {
         display: none;
     }
