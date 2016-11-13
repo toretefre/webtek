@@ -8,7 +8,7 @@ var btn = document.getElementById("button");
 var img = document.createElement("IMG");
 var closeButton = document.createElement("BUTTON");
 var text = document.createTextNode("Lukk sidekart");
-img.class = "sitemap";
+img.id = "sitemap";
 closeButton.appendChild(text);
 closeButton.id = "closeSitemap";
 closeButton.class = "knappen";
