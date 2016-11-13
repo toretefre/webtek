@@ -344,7 +344,7 @@ header span {
     }
 
     .content {
-        width:          auto;
+        min-width:          95%;
         padding:        1em 0 1em 5%;
         margin:         0;
     }
