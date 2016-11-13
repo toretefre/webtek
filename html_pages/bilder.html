@@ -28,10 +28,14 @@ PURPOSE: Page for contacting Gravberget
                     <section class="section_paragraph">
                         <h2>Her er noen bilder fra Gravberget:</h2><br><br>
                     </section>
-                    <section class = "section_paragraph">
-                        <button class="pic_button" onclick="nextPicture()">Neste bilde</button>
-                        <canvas id="myCanvas" width ="900" height="600"></canvas>
+                    <section class="slideshow_section">
                         <button class="pic_button" id="btnPrev" onclick="previousPicture()">Forrige bilde</button>
+                        <button class="pic_button" id="btnNext"  onclick="nextPicture()">Neste bilde</button>
+                        <canvas id="myCanvas" width ="900" height="600"></canvas>
+                    </section>
+                    <section class="fallback_images">
+                        <img src="../images/dugnad11.jpg" alt="Dugnadsbilde">
+                        <img src="../images/dugnad16.jpg" alt="Dugnadsbilde">
                     </section>
                 </section>
             </article>
