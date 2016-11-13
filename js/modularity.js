@@ -10,10 +10,11 @@ const navBar = document.getElementById('navbaren');
 
 window.onload = function insertModularContent() {
 	let footerContent = document.createElement('span');
-	footerContent.innerHTML = "Laget av studenter på <a href='https://www.ntnu.no/studier/bit'>Informatikk ved NTNU i Trondheim</a>.<br>" +
-		"<a href='mailto:gravberget@list.stud.ntnu.no' target='_top'>Send oss en e-post!</a><br> " +
-		"<a onclick='jsfunction()' href='#'>Sidekart</a>" +
-		"<br><button class='knappen' id = 'theAnchor' onclick='smoothScroll(\"theAnchor\")'><div class='trekant'></div></button>";
+	footerContent.innerHTML =
+		"<button class='knappen' id = 'theAnchor' onclick='smoothScroll(\"theAnchor\")'><div class='trekant'></div></button><br>" +
+		"<a onclick='loadSitemap()' href='#footer'>Sidekart</a><br>" +
+		"<a href='mailto:gravberget@list.stud.ntnu.no' target='_top'>Kontakt webmaster</a><br>" +
+		"<p>Laget av <a href='https://www.ntnu.no/studier/bit'>informatikkstudenter ved NTNU i Trondheim</a>.</p>";
 
 	let navBarContent = document.createElement('ul');
 	navBarContent.className = "navbar";
