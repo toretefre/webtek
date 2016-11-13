@@ -184,6 +184,16 @@ label {
     margin:             0 0.5em 0.5em 0;
 }
 
+/* Properties of square images in article */
+.square_images {
+    display:            block;
+    float:              left;
+    height:             24em;
+    width:              24em;
+    border:             2px solid darkslategray;
+    margin:             0 0.5em 0.5em 0;
+}
+
 /* Properties for p and h2 in article */
 article p, h2 {
     font-family:        Verdana, Tahoma, sans-serif;
