@@ -121,7 +121,7 @@ article {
 
 /* Properties for each paragraph in content */
 .section_paragraph {
-    margin:             0 auto;
+    margin:             0 auto 0 20em;
     width:              650px;
 }
 
