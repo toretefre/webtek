@@ -133,13 +133,13 @@ article {
 /* Properties for each paragraph in content */
 .section_paragraph {
     margin:             2em auto;
-    width:              650px;
+    width:              500px;
 }
 
 /* provides left margin for paragraphs at index.html */
 .index_section_paragraph {
     display:            block;
-    max-width:          650px;
+    max-width:          500px;
     margin-left:        20em;
 }
 
