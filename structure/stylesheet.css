@@ -334,6 +334,10 @@ header span {
          display:       none;
     }
 
+    .square_images {
+        display:        none;
+    }
+
     aside {
         display:        none;
     }
