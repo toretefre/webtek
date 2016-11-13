@@ -303,17 +303,16 @@ footer a {
 
 header span {
     position:           absolute;
-    top:                1em;
+    top:                0.5em;
     left:               auto;
     right:              auto;
     padding-left:       15%;
-    width:              90%;
-    font-family:        "Comic Sans MS", cursive, sans-serif;
+    width:              85%;
+    font-family:        Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; /* Many fallbacks */
     font-weight:        bold;
     font-size:          2em;
     letter-spacing:     1em;
     color:              darkslategray;
-
 }
 
 /* Makes page mobile friendly for devices with screen width 900px */
