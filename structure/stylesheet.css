@@ -126,7 +126,7 @@ article {
 
 /* Properties for each paragraph in content */
 .section_paragraph {
-    margin:             0 auto 0 20em;
+    margin:             2em auto;
     width:              650px;
 }
 
@@ -140,6 +140,11 @@ article {
     list-style:         none;
     font-family:        Verdana, Tahoma, sans-serif;
     padding-top:        0.5em;
+}
+
+.slideshow_section {
+    width:              900px;
+    margin:             1em auto;
 }
 
 label {
@@ -185,8 +190,8 @@ article p, h2 {
     line-height:        150%;
 }
 
-h2 {
-    margin-bottom:      10em;
+a {
+    font-family:        Verdana, Tahoma, sans-serif;
 }
 
 /* Gjør footer-tekst hvit */
@@ -238,7 +243,7 @@ button:active {
 /* Special properties of slideshow buttons */
 .pic_button {
     display:            inline-block;
-    width:              300px;
+    width:              448px;
     height:             4em;
     border:             1px solid darkslategray;
     border-radius:      0;
@@ -268,13 +273,13 @@ footer a {
     color:              #eaeaea;
 }
 
-@media only screen and (min-width:800px) and (max-width:1200px)  {
+@media only screen and (min-width:900px) and (max-width:1200px)  {
     header {
         display:        none;
     }
 
     .round_images {
-        width:          75%;
+        width:          100%;
         border-radius:  0;
         border:         0;
     }
@@ -293,13 +298,14 @@ footer a {
     }
 
     .index_section_paragraph {
+        display:        block;
         width:          95%;
         margin:         auto;
     }
 }
 
 /* Makes page mobile friendly for devices with screen width 600px */
-@media (max-width: 799px) {
+@media (max-width: 899px) {
     header {
         display:        none;
     }
@@ -321,7 +327,7 @@ footer a {
     }
 
     .fallback_images img {
-        max-width:      100%;
+        width:      100%;
     }
 
     nav {
@@ -335,9 +341,9 @@ footer a {
     }
 
     .section_paragraph {
-        margin:         0;
+        margin:         5%;
         padding:        0;
-        max-width:      100%;
+        max-width:      90%;
     }
 
     .index_section_paragraph {
