@@ -8,7 +8,7 @@
 body {
     display:            flex;
     min-height:         100vh;
-    max-height:         100%;
+    _height:            100vh;
     flex-direction:     column;
 }
 
@@ -282,6 +282,27 @@ footer span {
 footer a {
     text-decoration:    none;
     color:              #eaeaea;
+}
+
+@media (max-width: 1175px) {
+    aside {
+        display:        none;
+    }
+
+    .index_section_paragraph {
+        width:          80%;
+    }
+}
+
+header span {
+    position:           absolute;
+    top:                1em;
+    left:               1.5em;
+    width:              100%;
+    font-family:        "Arial Black", Arial, sans-serif;
+    font-size:          1.5em;
+    letter-spacing:     1.5em;
+
 }
 
 /* Makes page mobile friendly for devices with screen width 900px */
