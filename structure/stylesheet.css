@@ -302,11 +302,11 @@ footer a {
 }
 
 header span {
-    position:           relative;
+    position:           absolute;
     top:                1em;
     left:               auto;
     right:              auto;
-    padding-left:       1.5em;
+    padding-left:       15%;
     width:              90%;
     font-family:        "Comic Sans MS", cursive, sans-serif;
     font-weight:        bold;
