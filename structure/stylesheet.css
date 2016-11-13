@@ -333,6 +333,11 @@ header span {
         width:          100%;
     }
 
+    .fallback_images h2 {
+        display:        block;
+        margin:         10px;
+    }
+
     nav {
         top:            0;
     }
