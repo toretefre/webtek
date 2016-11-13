@@ -7,7 +7,7 @@ PURPOSE: Adds a sitemap to the footer
 var btn = document.getElementById("button");
 var img = document.createElement("IMG");
 var closeButton = document.createElement("BUTTON");
-var text = document.createTextNode("Lukk sitemap");
+var text = document.createTextNode("Lukk sidekart");
 img.class = "sitemap";
 closeButton.appendChild(text);
 closeButton.id = "closeSitemap";
