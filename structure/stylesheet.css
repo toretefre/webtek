@@ -125,7 +125,7 @@ article {
 /* Properties for each section in article */
 .content {
     display:            inline-block;
-    max-width:          70%;
+    max-width:          75%;
     padding:            3em 1em 3em 5%;
     margin:             auto;
 }
@@ -133,13 +133,13 @@ article {
 /* Properties for each paragraph in content */
 .section_paragraph {
     margin:             2em auto;
-    width:              650px;
+    width:              700px;
 }
 
 /* provides left margin for paragraphs at index.html */
 .index_section_paragraph {
     display:            block;
-    max-width:          650px;
+    max-width:          700px;
     margin-left:        20em;
 }
 
@@ -270,12 +270,12 @@ button:active {
 
 /* Special properties of trekant in to-top button*/
 .trekant {
-    height:               0;
-    width:                0;
-    border:               0 solid transparent;
-    border-right-width:   14px;
-    border-left-width:    14px;
-    border-bottom:        14px solid black;
+    height:             0;
+    width:              0;
+    border:             0 solid transparent;
+    border-right-width: 14px;
+    border-left-width:  14px;
+    border-bottom:      14px solid black;
 }
 
 /* Properties for text in footer. */
@@ -283,12 +283,21 @@ footer span {
     font-family:        Verdana, Tahoma, sans-serif;
     color:              lightgray;
     line-height:        150%;
+    margin:             0 auto;
 }
 
 /* Properties for URL in footer */
 footer a {
     text-decoration:    none;
     color:              #eaeaea;
+}
+
+#sitemap {
+    margin:             0.5em auto;
+}
+
+#closeSitemap {
+    margin:             0.5em auto;
 }
 
 @media (max-width: 1175px) {
