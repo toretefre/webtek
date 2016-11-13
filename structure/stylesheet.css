@@ -8,7 +8,7 @@
 body {
     display:            flex;
     min-height:         100vh;
-    max-height:         100%;
+    _height:            100vh;
     flex-direction:     column;
 }
 
@@ -133,12 +133,13 @@ article {
 /* provides left margin for paragraphs at index.html */
 .index_section_paragraph {
     display:            block;
-    width:              650px;
+    max-width:          650px;
     margin-left:        20em;
 }
 
 .styre_liste {
     list-style:         none;
+    line-height:        1.5em;
     font-family:        Verdana, Tahoma, sans-serif;
     padding-top:        0.5em;
 }
@@ -180,6 +181,16 @@ label {
     height:             17em;
     width:              17em;
     border-radius:      50%;
+    border:             2px solid darkslategray;
+    margin:             0 0.5em 0.5em 0;
+}
+
+/* Properties of square images in article */
+.square_images {
+    display:            block;
+    float:              left;
+    height:             17em;
+    width:              17em;
     border:             2px solid darkslategray;
     margin:             0 0.5em 0.5em 0;
 }
@@ -274,39 +285,31 @@ footer a {
     color:              #eaeaea;
 }
 
-@media only screen and (min-width:900px) and (max-width:1200px)  {
-    header {
-        display:        none;
-    }
-
-    .round_images {
-        width:          100%;
-        border-radius:  0;
-        border:         0;
-    }
-
+@media (max-width: 1175px) {
     aside {
         display:        none;
     }
 
-    nav {
-        top:            0;
-    }
-
-    .content {
-        width:          100%;
-        padding:        1em 0 1em 0;
-    }
-
     .index_section_paragraph {
-        display:        block;
-        width:          95%;
-        margin:         auto;
+        width:          80%;
     }
 }
 
-/* Makes page mobile friendly for devices with screen width 600px */
-@media (max-width: 899px) {
+header span {
+    position:           absolute;
+    top:                1em;
+    padding-left:       1.5em;
+    width:              90%;
+    font-family:        "Comic Sans MS", cursive, sans-serif;
+    font-weight:        bold;
+    font-size:          2em;
+    letter-spacing:     1em;
+    color:              darkslategray;
+
+}
+
+/* Makes page mobile friendly for devices with screen width 900px */
+@media (max-width: 919px) {
     header {
         display:        none;
     }
@@ -329,6 +332,11 @@ footer a {
 
     .fallback_images img {
         width:          100%;
+    }
+
+    .fallback_images h2 {
+        display:        block;
+        margin:         10px;
     }
 
     nav {
