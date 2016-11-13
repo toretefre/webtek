@@ -1,6 +1,9 @@
-/**
- * Created by toret on 12.11.2016.
- */
+/*
+FILE NAME: sitemap.js
+WRITTEN BY: Trym Høgelid
+WHEN: November 2016
+PURPOSE: Adds a sitemap to the footer
+*/
 var btn = document.getElementById("button");
 var img = document.createElement("IMG");
 var closeButton = document.createElement("BUTTON");
