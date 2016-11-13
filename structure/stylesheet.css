@@ -1,3 +1,10 @@
+/*
+FILE NAME: stylesheet.css
+WRITTEN BY: all group members
+WHEN: November 2016
+PURPOSE: Define CSS rules for site
+*/
+
 /* Deletes all margin and padding */
 * {
     margin:             0;
@@ -295,8 +302,10 @@ footer a {
 }
 
 header span {
-    position:           absolute;
+    position:           relative;
     top:                1em;
+    left:               auto;
+    right:              auto;
     padding-left:       1.5em;
     width:              90%;
     font-family:        "Comic Sans MS", cursive, sans-serif;
