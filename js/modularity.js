@@ -10,6 +10,7 @@ const navBar = document.getElementById('navbaren');
 
 window.onload = function insertModularContent() {
 	let footerContent = document.createElement('span');
+	footerContent.id = "footerContent";
 	footerContent.innerHTML =
 		"<button class='knappen' id = 'theAnchor' onclick='smoothScroll(\"theAnchor\")'><div class='trekant'></div></button><br>" +
 		"<button class ='knappen' id = 'button' onclick='loadSitemap(); smoothScroll(\"theBottomAnchor\");'>Sitemap </button><br>" +

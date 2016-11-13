@@ -19,8 +19,8 @@ function loadSitemap() {
 	img.height = 200;
 	img.alt = "Sitemap";
 	img.style.display= "block";
-	footer.appendChild(img);
-	footer.appendChild(closeButton);
+	footerContent.appendChild(img);
+	footerContent.appendChild(closeButton);
 	closeButton.style.display = "block";
 	closeButton.onclick = function() {
 		img.style.display = "none";
