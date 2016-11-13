@@ -139,6 +139,7 @@ article {
 
 .styre_liste {
     list-style:         none;
+    line-height:        1.5em;
     font-family:        Verdana, Tahoma, sans-serif;
     padding-top:        0.5em;
 }
