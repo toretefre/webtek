@@ -274,38 +274,7 @@ footer a {
     color:              #eaeaea;
 }
 
-@media only screen and (min-width:900px) and (max-width:1200px)  {
-    header {
-        display:        none;
-    }
-
-    .round_images {
-        width:          100%;
-        border-radius:  0;
-        border:         0;
-    }
-
-    aside {
-        display:        none;
-    }
-
-    nav {
-        top:            0;
-    }
-
-    .content {
-        width:          100%;
-        padding:        1em 0 1em 0;
-    }
-
-    .index_section_paragraph {
-        display:        block;
-        width:          95%;
-        margin:         auto;
-    }
-}
-
-/* Makes page mobile friendly for devices with screen width 600px */
+/* Makes page mobile friendly for devices with screen width 900px */
 @media (max-width: 899px) {
     header {
         display:        none;
