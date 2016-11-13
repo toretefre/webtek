@@ -156,10 +156,10 @@ label {
 }
 /*Changes properties for submit button */
 #submit {
-    width:150px;
-    height:50px;
-    display:block;
-    margin:5px auto;
+    width:              150px;
+    height:             50px;
+    display:            block;
+    margin:             5px auto;
 }
 
 /* Properties of images in article */
@@ -178,6 +178,10 @@ article p, h2 {
     font-family:        Verdana, Tahoma, sans-serif;
     display:            inline;
     line-height:        150%;
+}
+
+h2 {
+    margin-bottom:      10em;
 }
 
 /* Gjør footer-tekst hvit */
@@ -209,11 +213,10 @@ button {
     display:            inline-block;
     font-family:        Verdana, Tahoma, sans-serif;
     font-size:          1em;
-    margin:             4px 2px;
+    margin:             5px 0;
     cursor:             pointer;
     -webkit-transition-duration:    0.4s; /* Safari */
     transition-duration:            0.4s;
-
 }
 
 /* :onhover of  buttons */
@@ -229,22 +232,22 @@ button:active {
 
 /* Special properties of slideshow buttons */
 .pic_button {
-    width:              10em;
+    width:              900px;
     height:             4em;
-    border:             1px solid #4CAF50;
-    margin:             auto 1em auto 1em;
+    border:             1px solid darkslategray;
+    border-radius:      0;
+    margin:             0 0 3px 0;
 }
 
 /* Special properties of trekant in to-top button*/
 .trekant {
-  height:               0;
-  width:                0;
-  border:               0 solid transparent;
-  border-right-width:   14px;
-  border-left-width:    14px;
-  border-bottom:        14px solid black;
+    height:               0;
+    width:                0;
+    border:               0 solid transparent;
+    border-right-width:   14px;
+    border-left-width:    14px;
+    border-bottom:        14px solid black;
 }
-
 
 /* Properties for text in footer. */
 footer span {
