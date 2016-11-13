@@ -133,6 +133,7 @@ article {
 /* provides left margin for paragraphs at index.html */
 .index_section_paragraph {
     display:            block;
+    width:              650px;
     margin-left:        20em;
 }
 
@@ -327,7 +328,7 @@ footer a {
     }
 
     .fallback_images img {
-        width:      100%;
+        width:          100%;
     }
 
     nav {
