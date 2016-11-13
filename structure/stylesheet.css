@@ -133,13 +133,13 @@ article {
 /* Properties for each paragraph in content */
 .section_paragraph {
     margin:             2em auto;
-    width:              700px;
+    width:              650px;
 }
 
 /* provides left margin for paragraphs at index.html */
 .index_section_paragraph {
     display:            block;
-    max-width:          700px;
+    max-width:          650px;
     margin-left:        20em;
 }
 
@@ -300,16 +300,6 @@ footer a {
     margin:             0.5em auto;
 }
 
-@media (max-width: 1175px) {
-    aside {
-        display:        none;
-    }
-
-    .index_section_paragraph {
-        width:          80%;
-    }
-}
-
 header span {
     position:           absolute;
     top:                0.5em;
@@ -324,6 +314,15 @@ header span {
     color:              darkslategray;
 }
 
+@media (max-width: 1175px) {
+    aside {
+        display: none;
+    }
+
+    .index_section_paragraph {
+        width: 80%;
+    }
+}
 /* Makes page mobile friendly for devices with screen width 900px */
 @media (max-width: 919px) {
     header {
