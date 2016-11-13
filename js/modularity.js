@@ -12,7 +12,10 @@ window.onload = function insertModularContent() {
 	let footerContent = document.createElement('span');
 	footerContent.innerHTML =
 		"<button class='knappen' id = 'theAnchor' onclick='smoothScroll(\"theAnchor\")'><div class='trekant'></div></button><br>" +
-		"<a onclick='loadSitemap()' href='#footer'>Sidekart</a><br>" +
+		"<button class ='knappen' id = 'btn' onclick='loadSitemap()'>Sitemap </button><br>" +
+		"<img id='myImg' src='../images/dugnad11.jpg' alt='Sitemap' width='300' height='300'>"+
+		"<div id='myModal' class='modal'>"+"<span class='close' onclick = 'closeModal()'></span>"+
+		"<img class='modal-content' id='img01'></div>"+
 		"<a href='mailto:gravberget@list.stud.ntnu.no' target='_top'>Kontakt webmaster</a><br>" +
 		"<p>Laget av <a href='https://www.ntnu.no/studier/bit'>informatikkstudenter ved NTNU i Trondheim</a>.</p>";
 
