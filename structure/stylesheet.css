@@ -189,8 +189,8 @@ label {
 .square_images {
     display:            block;
     float:              left;
-    height:             24em;
-    width:              24em;
+    height:             17em;
+    width:              17em;
     border:             2px solid darkslategray;
     margin:             0 0.5em 0.5em 0;
 }
